@@ -187,7 +187,7 @@
   }
   .left .card p {
       color: #014081;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   
   }
@@ -204,7 +204,7 @@
       color: white;
       border: none;
       font-size: 20px;
-      padding: 10px 0;
+      padding: 6px 0;
       margin-top: 15px;
   }
   button:hover{
@@ -233,6 +233,19 @@
   .footer-mobile{
     display: flex;
     align-items: center;
+    font-size: 10px;
+  }
+  .fLRight{
+    font-size: 7px;
+    margin-top: -10px;
+  }
+  .child-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .child-image img{
+    width: 75%;
   }
   #sideIcon{
     position: absolute;
@@ -308,7 +321,7 @@
       .top {
           display: flex;
           flex-direction: column;
-          margin-top: 20px;
+          margin-top: 5px;
           justify-content: center;
           align-items: center;
         }
@@ -318,19 +331,20 @@
         .top h1{
           text-align: center;
           padding: 0px 10px;
+          font-size: 40px;
         }
   
         .leftTop{
           background-color:#014081;
-          padding: 21px 13px;
+          padding: 14px 6px;
           border-radius: 50%;
-          border: 10px solid #00a1e3;
+          border: 4px solid #00a1e3;
           transform: rotate(-20deg);
           z-index: 1;
       }
       .leftTop h2{
           color: white;
-          font-size: 49px;
+          font-size: 28px;
       }
       .leftTop p:nth-child(2){
         color: #fedc01;
@@ -348,7 +362,7 @@
           padding-top: 60px;
       }
       .leftTop p:last-child{
-        font-size: 10px;
+        font-size: 7px;
       }
       .letf-contents{
           width: 100%;
@@ -373,7 +387,8 @@
         color:#fedc01;
         white-space: nowrap;
         font-weight: 600;
-        font-size: 12px !important;
+        font-size: 8px !important;
+        margin-top: 7px;
       }
       button{
         border-radius: 15px;
@@ -381,11 +396,21 @@
       .card input{
         width: 100%;
       }
+      #logo{
+        width: 50px;
+        height: 50px;
+
+      }
   }
   
   @media (max-width: 535px){
       #mobTopP{
           margin-bottom: 60px;
+      }
+      .top h1{
+        text-align: center;
+        padding: 0px 10px;
+        font-size: 30px;
       }
   }
 
