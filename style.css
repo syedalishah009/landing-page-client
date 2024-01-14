@@ -257,7 +257,7 @@
   position: absolute;
   top: 20%;
   font-size: 45px;
-  z-index: 1;
+  z-index: 2;
   background-color: rgb(249 245 245);
   /* padding: 10px 30px; */
   width:300px;
@@ -330,7 +330,7 @@
           border-radius: 50%;
           border: 4px solid #00a1e3;
           transform: rotate(-20deg);
-          z-index: -1;
+          
       }
       .leftTop h2{
           color: white;
@@ -348,7 +348,7 @@
       .card{
           width: 100vw;
           margin-top: -50px;
-          z-index: -1;
+          z-index: -11;
           padding-top: 60px;
       }
       .leftTop p:last-child{
