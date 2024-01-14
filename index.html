@@ -50,7 +50,7 @@
               </div>
               <p id="mobTopP">החלה ההרשמה לבית הספר המקצועי לטניס</p>
             </div>
-            <form method="post" onsubmit="validateForm()">
+            <form action="thanks.html" method="post" onsubmit="validateForm()">
               <div class="card">
                 <p>:מספר המקומות מוגבל, הקדימו והירשמו</p>
                 <input
@@ -208,7 +208,7 @@
             var formData = new FormData(document.getElementById('myForm'));
 
             // Send POST request using fetch
-            fetch('your_php_file.php', {
+            fetch('ajax-contact.php', {
                 method: 'POST',
                 body: formData
             })
