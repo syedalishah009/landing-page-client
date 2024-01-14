@@ -68,7 +68,7 @@
   .letf-contents h2{
       color: #014081;
       font-size: 80px ;
-      margin-bottom: -10px;
+      margin-bottom: -20px;
       font-weight: 800;
   }
   .leftTop{
@@ -233,20 +233,9 @@
   .footer-mobile{
     display: flex;
     align-items: center;
-    font-size: 10px;
   }
-  .fLRight{
-    font-size: 7px;
-    margin-top: -10px;
-  }
-  .child-image{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5px;
-  }
-  .child-image img{
-    width: 75%;
-  }
+ 
+  
   #sideIcon{
     position: absolute;
     right: -40px;
@@ -400,6 +389,21 @@
         width: 50px;
         height: 50px;
 
+      }
+      .fLRight{
+        font-size: 7px;
+        margin-top: -10px;
+      }
+      .footer-mobile{
+            font-size: 10px;
+      }
+      .child-image{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+      }
+      .child-image img{
+        width: 75%;
       }
   }
   
