@@ -378,7 +378,7 @@
         white-space: nowrap;
         font-weight: 600;
         font-size: 8px !important;
-        margin-top: 7px;
+        margin-top: 16px;
       }
       button{
         border-radius: 15px;
@@ -393,7 +393,6 @@
       }
       .fLRight{
         font-size: 7px;
-        margin-top: -10px;
       }
       .footer-mobile{
             font-size: 10px;
