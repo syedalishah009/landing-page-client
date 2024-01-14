@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
   body,html {
+    
     width: 100%;
     background: url('./images/sky.jpg') no-repeat center center fixed;
     /* Set background size to cover the entire body */
