@@ -3,8 +3,17 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  @font-face {
+    font-family: 'YourFontName';
+    src: url('./fonts/FbSpoiler-Black.otf') format('otf'),
+         /* url('fonts/your-font-file.woff') format('woff'); */
+    /* Add more file formats if necessary */
+}
+
+
   body,html {
-    
+    font-family: 'FbSpoiler-Black', sans-serif;
     width: 100%;
     background: url('./images/sky.jpg') no-repeat center center fixed;
     /* Set background size to cover the entire body */
@@ -67,15 +76,15 @@
     align-items: center;
   }
   .letf-contents h2{
-      color: #014081;
+      color: #0b3eb8;
       font-size: 80px ;
       margin-bottom: -20px;
-      font-weight: 800;
   }
   .leftTop{
       display: flex;
       flex-direction: column;
       text-align: center;
+      
   }
   #crossIcon:hover{
     cursor: pointer;
@@ -122,6 +131,7 @@
   }
   .footer-left {
     display: flex;
+
     align-items: center;
     column-gap: 40px;
   }
@@ -187,8 +197,8 @@
   
   }
   .left .card p {
-      color: #014081;
-    font-size: 20px;
+      color: #0b3eb8;
+    font-size: 16px;
     text-align: center;
   
   }
@@ -198,10 +208,10 @@
       outline: none;
   }
   input::placeholder{
-      color: #014081;
+      color: #0b3eb8;
   }
   .card button{
-      background-color: rgb(31, 31, 83);
+      background-color: #0b3eb8;
       color: white;
       border: none;
       font-size: 20px;
@@ -215,7 +225,7 @@
       background: transparent;
       border: none;
       outline: none;
-      color: #014081;
+      color: #0b3eb8;
   }
   option{
     color: black;
@@ -233,6 +243,7 @@
   }
   .footer-mobile{
     display: flex;
+    justify-content: center;
     align-items: center;
   }
  
@@ -296,6 +307,7 @@
       }
       .footer{
         flex-direction: column-reverse;
+        justify-content: center;
         row-gap: 10px;
        
       }
@@ -325,16 +337,17 @@
         }
   
         .leftTop{
-          background-color:#014081;
-          padding: 14px 6px;
+          background-color:#0b3eb8;
+          padding: 21px 10px;
           border-radius: 50%;
           border: 4px solid #00a1e3;
           transform: rotate(-20deg);
+          z-index: 1;
           
       }
       .leftTop h2{
           color: white;
-          font-size: 28px;
+          font-size: 23px;
       }
       .leftTop p:nth-child(2){
         color: #fedc01;
@@ -409,7 +422,7 @@
   
   @media (max-width: 535px){
       #mobTopP{
-          margin-bottom: 60px;
+        margin-bottom: 68px;
       }
       .top h1{
         text-align: center;

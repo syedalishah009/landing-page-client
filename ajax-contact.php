@@ -93,7 +93,7 @@ if($_POST['submit'])
     // mail($to, $subject, $msg, $headers);
     
     // Send lead to lead.im
-    $curl_lead = curl('https://center.tennis.org.il/contacts/lead_form1',http_build_query($_POST['data_lead_arr']),true,false);
+    $curl_lead = curl('leftTop',http_build_query($_POST['data_lead_arr']),true,false);
     
     echo 'success';
 }
